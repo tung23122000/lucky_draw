@@ -9,7 +9,7 @@ html {
 
 .app {
   position: relative;
-  height: 713px;
+  height: 730px;
   width: 100%;
 }
 
@@ -111,4 +111,10 @@ html {
 .disabled{
   opacity: 0.5;
   
+}
+.audio{
+  opacity: 0.01;
+}
+.disable{
+  display: none;
 }

@@ -1,20 +1,26 @@
-const btnSt = document.querySelector(".button-tow");
-const infPrize = document.querySelector(".lable-give");
+const btnStt = document.querySelector(".button-tow");
+const mp3Audio= document.getElementById("playAudio");
 
 function dispy(){
    const  valueas = document.querySelector(".form-control").value;
    
    if(valueas=== "option"){
-      btnSt.classList.add('disabled');
+      btnStt.classList.add('disabled');
    }
    else {
-      btnSt.classList.remove('disabled');
+      btnStt.classList.remove('disabled');
+      setTimeout(function(){
+         mp3Audio.innerHTML= `<source src="./assets/audio_file/nhaccc.mp3">`
+      mp3Audio.load();
+      mp3Audio.play();
+   },25000)
+      
    }
-   
 }
-
-
-
-
-
-
+function display2(){
+   setTimeout(function(){
+      mp3Audio.innerHTML= `<source src="./assets/audio_file/nhaccc.mp3">`
+      mp3Audio.load();
+      mp3Audio.play();
+   },25000)
+}

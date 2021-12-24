@@ -226,7 +226,7 @@ const staffs = [
     {
         id: 34,
         MSC: "NV0454",
-        idst: 0454,
+        idst: 10454,
         name: "NGUYỄN THỊ PHƯỢNG",
         description: "BAN TÀI CHÍNH KẾ TOÁN"
     },
@@ -380,7 +380,7 @@ const staffs = [
     {
         id: 56,
         MSC: "NV3057",
-        idst: 3057,
+        idst: 13057,
         name: "NGUYỄN THU THUỲ",
         description: "NHÂN SỰ & TRUYỀN THÔNG"
     },
@@ -471,7 +471,7 @@ const staffs = [
     {
         id: 69,
         MSC: "NV3086",
-        idst: 3086,
+        idst: 13086,
         name: "HOÀNG VŨ DƯƠNG",
         description: "TTKD KHỐI KHÁCH HÀNG VIỄN THÔNG VÀ TRUYỀN HÌNH"
     },
@@ -743,8 +743,8 @@ const staffs = [
     }
     //    {
     //     id: 108,
-    //     MSC:"NV3140",
-    //     idst: 13140,
+    //     MSC:"NV3144",
+    //     idst: 13144,
     //     name: "NGUYEN VAN TUNG",
     //     description:"TRUNG TÂM PHẦN MỀM"
     // },
@@ -768,17 +768,20 @@ const counterAnim = (qSelector, start = 0, end, duration = 1000) => {
 };
 
 
+
+
 //#endregion - end of - number counter animation
 function randomArray(numberRandom) {
     return staffs.filter(function (staff, index) {
         return numberRandom === staff.id
     })
 }
+const inPrize = document.querySelector('.lable-give');
 function setHtml(people) {
     let html;
     html = (`<p>Chúc mừng <a style="color: cornflowerblue;"> ${people.name} </a>
          mã số <a style="color: cornflowerblue;"> ${people.MSC} </a>đã trúng giải </p>`)
-    infPrize.innerHTML = html;
+    inPrize.innerHTML = html;
     console.log(people.name);
 }
 
@@ -802,25 +805,32 @@ function clickk() {
             return people.id !== indexRandom;
         });
         console.log(newArr);
-      
-        counterAnim(".number-random_1", 0, 0, 1000);
-        counterAnim(".number-random_2", 0, arr[1], 1000);
-        counterAnim(".number-random_3", 0, arr[2], 4000);
-        counterAnim(".number-random_4", 0, arr[3], 5000);
-        counterAnim(".number-random_5", 0, arr[4], 8000);
 
-        infPrize.innerHTML = "Ai sẽ là người may mắn nào ..."
+        counterAnim(".number-random_1", 0, 0, 1000);
+        setTimeout(() => {
+            counterAnim(".number-random_2", 0, arr[1], 200);
+        }, 2000);
+        setTimeout(() => {
+            counterAnim(".number-random_3", 0, arr[2], 200);
+        }, 4000);
+        setTimeout(() => {
+            counterAnim(".number-random_4", 0, arr[3], 200);
+        }, 6000);
+        setTimeout(() => {
+            counterAnim(".number-random_5", 0, arr[4], 200);
+        }, 8000);
+        
+        inPrize.innerHTML = "Ai sẽ là người may mắn nào ..."
 
         setTimeout(() => {
             setHtml(arrNew);
-        }, 8000);
-
+        }, 10000);
+       
         newArr = c;
-
-
 
     }
 
 }
+
 
 

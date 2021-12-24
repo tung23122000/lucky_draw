@@ -20,37 +20,43 @@
     />
     <title>Document</title>
   </head>
+  
   <body>
-    <div class="app">
-      <img src="./assets/image/anhtet.jpg" class="image-background" alt="" />
-      <div class="tab-number">
-        <div class="number-randum number-random_1" id="one">0</div>
-        <div class="number-randum number-random_2" id="two">0</div>
-        <div class="number-randum number-random_3" id="three">0</div>
-        <div class="number-randum number-random_4" id="four">0</div>
-        <div class="number-randum number-random_5" id="five">0</div>
-      </div>
-
-      <select class="form-control display" id="form" onchange="dispy()">
-        <option value="option">-- Chọn giải --</option>
-        <option value="first">Giải nhất</option>
-        <option value="second ">Giải nhì</option>
-        <option value="second">Giải ba</option>
-        <option value="encourage">Giải khuyến khích</option>
-        <option value="special">Giải đặc biệt</option>
-      </select>
-
-      <select class="form-control turn">
-        <option>Lượt 1 </option>
-        <option>Lượt 2</option>
-        <option>Lượt 3</option>
-        <option>Lượt 4</option>
-        <option>Lượt 5</option>
-      </select>
-      <button class="button-tow disabled" onclick="clickk()">Quay</button>
-
-      <div class="lable-give">Chào mừng đã đễ với vòng quay may mắn</div>
-    </div>
+      
+        <div class="app">
+          <img src="./assets/image/anhtet.jpg" class="image-background" alt="" />
+          <div class="tab-number">
+            <div class="number-randum number-random_1" id="one">9</div>
+            <div class="number-randum number-random_2" id="two">9</div>
+            <div class="number-randum number-random_3" id="three">9</div>
+            <div class="number-randum number-random_4" id="four">9</div>
+            <div class="number-randum number-random_5" id="five">9</div>
+          </div>
+    
+          <select class="form-control display" id="form" onchange="dispy()">
+            <option value="option">-- Chọn giải --</option>
+            <option value="first">Giải nhất</option>
+            <option value="second ">Giải nhì</option>
+            <option value="second">Giải ba</option>
+            <option value="encourage">Giải khuyến khích</option>
+            <option value="special">Giải đặc biệt</option>
+          </select>
+    
+          <select class="form-control turn" onchange="display2()">
+            <option>Lượt 1 </option>
+            <option>Lượt 2</option>
+            <option>Lượt 3</option>
+            <option>Lượt 4</option>
+            <option>Lượt 5</option>
+          </select>
+          <button class="button-tow disabled" onclick="clickk()">Quay</button>
+    
+          <div class="lable-give">Chào mừng đã đễ với vòng quay may mắn</div>
+          
+          <audio autoplay loop  id="playAudio" >
+            <source src="./assets/audio_file/nhac.mp3">
+          </audio>
+        </div>
 
     <!-- <button class="checkkeke"></button> -->
     <script src="assets/jsfile/index.js"></script>
@@ -73,5 +79,6 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script></script>
   </body>
 </html>
