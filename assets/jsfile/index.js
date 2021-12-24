@@ -793,7 +793,8 @@ function clickk() {
     const valueas = document.querySelector(".form-control").value;
 
     if (valueas === "option") {
-        alert('Chọn giải thưởng mới được bấm nút')
+        doubleClickk();
+        alert('Chọn giải thưởng mới được bấm nút');
     }
     else {
         const indexRandom = Math.floor(Math.random() * staffs.length);

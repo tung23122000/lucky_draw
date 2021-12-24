@@ -9,18 +9,22 @@ function dispy(){
    }
    else {
       btnStt.classList.remove('disabled');
-      setTimeout(function(){
-         mp3Audio.innerHTML= `<source src="./assets/audio_file/nhaccc.mp3">`
+      mp3Audio.innerHTML= `<source src="./assets/audio_file/nhaccc.mp3">`
       mp3Audio.load();
       mp3Audio.play();
-   },25000)
+  
       
    }
 }
 function display2(){
-   setTimeout(function(){
+  
       mp3Audio.innerHTML= `<source src="./assets/audio_file/nhaccc.mp3">`
       mp3Audio.load();
       mp3Audio.play();
-   },25000)
+   
+}
+function doubleClickk(){
+   mp3Audio.innerHTML= `<source src="./assets/audio_file/nhac.mp3">`;
+   mp3Audio.load();
+   mp3Audio.play();
 }

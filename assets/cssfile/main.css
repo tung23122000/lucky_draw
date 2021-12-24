@@ -54,7 +54,7 @@ html {
 .form-control {
   color: #fff!important;
   display:block;
-  text-align: center;
+  text-align: center ;
   font-size: 1.3rem !important;
   font-weight: 400;
   background: rgba(100, 100, 100, 0.02);
