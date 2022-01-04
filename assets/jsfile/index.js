@@ -19,161 +19,161 @@ const data = [
 
     {
         "id": "1",
-        "MS": "16",
+        "MS": "0016",
         "male": "Anh",
         "name": "PHAN BÁCH",
         "description": "DỊCH VỤ TRIỂN KHAI"
     },
     {
         "id": "2",
-        "MS": "20",
+        "MS": "0020",
         "male": "Chị",
         "name": "HOÀNG THỊ THU TRANG",
         "description": "BAN TÀI CHÍNH KẾ TOÁN"
     },
     {
         "id": "3",
-        "MS": "22",
+        "MS": "0022",
         "male": "Chị",
         "name": "TRẦN QUỲNH VI",
         "description": "TTKD KHỐI KHÁCH HÀNG VIỄN THÔNG VÀ TRUYỀN HÌNH"
     },
     {
         "id": "4",
-        "MS": "27",
+        "MS": "0027",
         "male": "Anh",
         "name": "NGUYỄN THÀNH AN",
         "description": "DỊCH VỤ TRIỂN KHAI"
     },
     {
         "id": "5",
-        "MS": "28",
+        "MS": "0028",
         "male": "Anh",
         "name": "NGUYỄN VIỆT AN",
         "description": "TTKD KHỐI KHÁCH HÀNG VIỄN THÔNG VÀ TRUYỀN HÌNH"
     },
     {
         "id": "6",
-        "MS": "31",
+        "MS": "0031",
         "male": "Anh",
         "name": "NGUYỄN THĂNG LONG",
         "description": "DỊCH VỤ TRIỂN KHAI"
     },
     {
         "id": "7",
-        "MS": "42",
+        "MS": "0042",
         "male": "Anh",
         "name": "NGUYỄN ĐỨC ANH",
         "description": "TTKD KHỐI KHÁCH HÀNG CHÍNH PHỦ NGÂN HÀNG DOANH NGHIỆP"
     },
     {
         "id": "8",
-        "MS": "60",
+        "MS": "0060",
         "male": "Anh",
         "name": "NGUYỄN THANH TUẤN",
         "description": "TTKD KHỐI KHÁCH HÀNG CHÍNH PHỦ NGÂN HÀNG DOANH NGHIỆP"
     },
     {
         "id": "9",
-        "MS": "68",
+        "MS": "0068",
         "male": "Anh",
         "name": "BẠCH HOÀI KHANH",
         "description": "TTKD KHỐI KHÁCH HÀNG CHÍNH PHỦ NGÂN HÀNG DOANH NGHIỆP"
     },
     {
         "id": "10",
-        "MS": "85",
+        "MS": "0085",
         "male": "Chị",
         "name": "PHẠM THU TRANG",
         "description": "DỊCH VỤ TRIỂN KHAI"
     },
     {
         "id": "11",
-        "MS": "86",
+        "MS": "0086",
         "male": "Chị",
         "name": "MAI THỊ HƯƠNG",
         "description": "HÀNH CHÍNH TỔNG HỢP"
     },
     {
         "id": "12",
-        "MS": "96",
+        "MS": "0096",
         "male": "Anh",
         "name": "PHAN MINH HẢI",
         "description": "DỊCH VỤ TRIỂN KHAI"
     },
     {
         "id": "13",
-        "MS": "108",
+        "MS": "0108",
         "male": "Anh",
         "name": "ĐINH THỊ MINH KHÁNH",
         "description": "MUA HÀNG & HTKD"
     },
     {
         "id": "14",
-        "MS": "144",
+        "MS": "0144",
         "male": "Chị",
         "name": "PHẠM DIỄM QUỲNH",
         "description": "HÀNH CHÍNH TỔNG HỢP"
     },
     {
         "id": "15",
-        "MS": "149",
+        "MS": "0149",
         "male": "Chị",
         "name": "NGUYỄN THỊ HẢI LINH",
         "description": "HÀNH CHÍNH TỔNG HỢP"
     },
     {
         "id": "16",
-        "MS": "185",
+        "MS": "0185",
         "male": "Anh",
         "name": "TẠ CÔNG CHIẾN",
         "description": "DỊCH VỤ TRIỂN KHAI"
     },
     {
         "id": "17",
-        "MS": "195",
+        "MS": "0195",
         "male": "Anh",
         "name": "NGUYỄN ĐỨC THIỆN",
         "description": "TTKD KHỐI KHÁCH HÀNG VIỄN THÔNG VÀ TRUYỀN HÌNH"
     },
     {
         "id": "18",
-        "MS": "266",
+        "MS": "0266",
         "male": "Anh",
         "name": "HUỲNH PHƯỚC THUẬN",
         "description": "DỊCH VỤ TRIỂN KHAI- ĐÀ NẴNG"
     },
     {
         "id": "19",
-        "MS": "270",
+        "MS": "0270",
         "male": "Anh",
         "name": "TRẦN MẠNH HÀ",
         "description": "HÀNH CHÍNH TỔNG HỢP"
     },
     {
         "id": "20",
-        "MS": "279",
+        "MS": "0279",
         "male": "Anh",
         "name": "NGUYỄN QUỐC TOẢN",
         "description": "TTKD KHỐI KHÁCH HÀNG CHÍNH PHỦ NGÂN HÀNG DOANH NGHIỆP"
     },
     {
         "id": "21",
-        "MS": "345",
+        "MS": "0345",
         "male": "Chị",
         "name": "TÔ DUY LINH",
         "description": "TTKD KHỐI KHÁCH HÀNG CHÍNH PHỦ NGÂN HÀNG DOANH NGHIỆP"
     },
     {
         "id": "22",
-        "MS": "347",
+        "MS": "0347",
         "male": "Chị",
         "name": "ĐINH TỐ QUYÊN",
         "description": "TTKD KHỐI KHÁCH HÀNG CHÍNH PHỦ NGÂN HÀNG DOANH NGHIỆP"
     },
     {
         "id": "23",
-        "MS": "356",
+        "MS": "0356",
         "male": "Anh",
         "name": "ĐẶNG TÙNG ANH",
         "description": "DỊCH VỤ TRIỂN KHAI"
@@ -187,77 +187,77 @@ const data = [
     },
     {
         "id": "25",
-        "MS": "389",
+        "MS": "0389",
         "male": "Anh",
         "name": "BÙI TUẤN ANH",
         "description": "HÀNH CHÍNH TỔNG HỢP"
     },
     {
         "id": "26",
-        "MS": "395",
+        "MS": "0395",
         "male": "Anh",
         "name": "LÊ THANH HIẾU",
         "description": "HÀNH CHÍNH TỔNG HỢP"
     },
     {
         "id": "27",
-        "MS": "401",
+        "MS": "0401",
         "male": "Anh",
         "name": "HUỲNH THÀNH CÔNG",
         "description": "DỊCH VỤ TRIỂN KHAI- ĐÀ NẴNG"
     },
     {
         "id": "28",
-        "MS": "402",
+        "MS": "0402",
         "male": "Anh",
         "name": "ĐINH VIẾT LUÂN",
         "description": "TTKD KHỐI KHÁCH HÀNG VIỄN THÔNG VÀ TRUYỀN HÌNH"
     },
     {
         "id": "29",
-        "MS": "421",
+        "MS": "0421",
         "male": "Anh",
         "name": "NGUYỄN MẠNH DŨNG",
         "description": "DỊCH VỤ TRIỂN KHAI"
     },
     {
         "id": "30",
-        "MS": "438",
+        "MS": "0438",
         "male": "Anh",
         "name": "PHẠM VĂN QUYẾT",
         "description": "TTKD KHỐI KHÁCH HÀNG CHÍNH PHỦ NGÂN HÀNG DOANH NGHIỆP"
     },
     {
         "id": "31",
-        "MS": "440",
+        "MS": "0440",
         "male": "Anh",
         "name": "NGUYỄN XUÂN QUANG",
         "description": "DỊCH VỤ TRIỂN KHAI"
     },
     {
         "id": "32",
-        "MS": "446",
+        "MS": "0446",
         "male": "Anh",
         "name": "LÊ VIỆT HƯNG",
         "description": "DỊCH VỤ TRIỂN KHAI"
     },
     {
         "id": "33",
-        "MS": "453",
+        "MS": "0453",
         "male": "Chị",
         "name": "TRẦN VIỆT PHƯƠNG",
         "description": "TTKD KHỐI KHÁCH HÀNG VIỄN THÔNG VÀ TRUYỀN HÌNH"
     },
     {
         "id": "34",
-        "MS": "454",
+        "MS": "0454",
         "male": "Chị",
         "name": "NGUYỄN THỊ PHƯỢNG",
         "description": "BAN TÀI CHÍNH KẾ TOÁN"
     },
     {
         "id": "35",
-        "MS": "461",
+        "MS": "0461",
         "male": "Anh",
         "name": "LÊ ĐỨC CƯỜNG",
         "description": "DỊCH VỤ TRIỂN KHAI"
