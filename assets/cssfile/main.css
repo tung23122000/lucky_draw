@@ -1,120 +1,220 @@
 * {
-  box-sizing: inherit;
-}
-
-html {
-  font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
-}
-
-.app {
-  position: relative;
-  height: 730px;
-  width: 100%;
-}
-
-.image-background {
-  width: 100%;
-  height: 100%;
-}
-
-.tab-number {
-  background-color: rgb(180, 52, 65);
-  display: flex;
-  position: absolute;
-  top: 15%;
-  left: 25%;
-  width: 50%;
-  height: 24%;
-}
-.number-randum {
-  color: #fff;
-  font-weight: 700;
-  text-align: center;
-  font-size: 100px; 
-  height: 100%;
-  width: 25%;
-  background-color: rgba(255, 0, 0, 0.03);
-  border: 2px solid #fff;
-}
-.display,
-.turn {
+    box-sizing: inherit;
+  }
+  html {
+    font-family: 'The Nautigal', cursive;
+    box-sizing: border-box;
+  }
+  .app {
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  .app img{
+    width: 100%;
+    height: 100%;
+  }
   
-  background-color:rgba(205,2,6,0.8)!important;
-  border: 3px solid #fff;
-  border-radius: 10px;
-  width: 200px !important;
-  height: 6%;
-}
-.display {
-  position: absolute;
-  top: 45%;
-  right: 22%;
-}
-.form-control {
-  color: #fff!important;
-  display:block;
-  text-align: center ;
-  font-size: 1.3rem !important;
-  font-weight: 400;
-  background: rgba(100, 100, 100, 0.02);
-}
-.turn {
-  color: #fff;
-  text-align: center;
-  font-size: 1.3em;
-  position: absolute;
-  top: 45%;
-  right: 6%;
-}
-.button-tow {
-  border-radius: 50%;
-  border: 7px solid #fff;
-  background-color: brown;
-  width: 180px;
-  height: 180px;
-  position: absolute;
-  top: 53%;
-  right: 14.5%;
-}
-.button-tow {
-  font-size: 50px;
-  color: #ccc;
-  font-size: 700;
-}
+  .tab-number {
+    display: flex;
+    position: absolute;
+    left: 25.829%;
+    top: 30%;
+  }
+  .number-randum {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(243, 6, 6, 0.4);
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    margin: 0 36px;
+    border: 7px solid #fff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .number-randum h1 {
+    transform: rotate(45deg);
+    transform-origin: 0 100%;
+    font-size: 8.8em;
+  }
+  .one,
+  .four,
+  .three,
+  .two {
+    color: rgb(221, 160, 111);
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    bottom: 22px;
+    right: 78px;
+    font-weight: 800;
+  }
+  .button-tow {
+    border-radius: 7px;
+    background-image: url("../image/btn1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    bottom: 14%;
+    right: 40.19%;
+  }
+  .button-tow2 {
+    border-radius: 7px;
+    background-image: url("../image/bt2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    bottom: 14%;
+    right: 40.19%;
+  }
 
-.button-tow:hover {
-  color: #ccc;
-  cursor: pointer;
-  border: 10px solid #ccc;
-}
-.lable-give {
-  font-size: 2rem;
-  color:#fff;
-  text-align: 2rem;
-  padding-top: 20px;
-  text-align: center;
-  border-radius: 20px;
-  position: absolute;
-  bottom: 21%;
-  left: 31%;
-  width: 38%;
-  height: 23%;
-  background-color: rgba(255, 4, 4, 0.8);
-}
-
-/* .checkkeke{
-  width:100px;
-  height: 100px;
-  background-color: #000;
-} */
-.disabled{
-  opacity: 0.5;
+  .lable-give {
+    font-size: 2.8rem;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 21%;
+    left: 31%;
+    width: 38%;
+    height: 23%;
+    color: #fff;
+  }
   
-}
-.audio{
-  opacity: 0.01;
-}
-.disable{
-  display: none;
-}
+  .happy {
+    position: absolute;
+    top: 25%;
+    left: 29.5%;
+  }
+  
+  .many-gift {
+    flex: 1;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 39%;
+    right: 20%;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .many-gift:hover {
+    opacity: 0.9;
+  }
+  
+  .many-gift p {
+    font-size: 1rem;
+    margin-top: 3px;
+  }
+  .gift{
+    position: absolute;
+    width: 100%;
+    bottom: 24%;
+  }
+  .name-gift {
+    position: absolute;
+    width: 100%;
+    top: 36%;
+    color: #000;
+    text-align: center;
+  }
+  .name-peple-gift {
+    position: absolute;
+    width: 100%;
+    bottom: 30%;
+    text-align: center;
+  }
+  .name-peple-gift p {
+    flex: 1;
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: #fff;
+    flex: 0;
+  }
+  .display {
+    position: absolute;
+    bottom: 39%;
+    left: 36%;
+    background-color: rgb(255,171,136) !important;
+    border: 6px solid #fff;
+    border-radius: 10px;
+    width: 164px !important;
+    height: 5%;
+  }
+  .form-control {
+    color: rgb(219,80,21) !important;
+    display: block;
+    text-align: center;
+    font-size: 1.2rem !important;
+    font-weight: 700!important;
+    background: rgba(100, 100, 100, 0.02);
+  }
+  #form_2 {
+    position: absolute;
+    bottom: 39%;
+    right: 35.7%;
+    width: 220px;
+    height: 5%;
+    font-size: 1.2rem !important;
+    font-weight: 700;
+    color: rgb(219,80,21);
+    text-align: center;
+    background-color: rgb(255,171,136);
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .gift ,.name-gift{
+    
+    font-family: 'The Nautigal', cursive;
+    width: 100%;
+    height: 10%;
+    font-size: 8rem;
+    text-align: center;
+    color: #fff;
+  }
+  #refresh{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    bottom: 2%;
+    right: 7%;
+    border-radius: 50%;
+    background-color: rgba(240, 3, 3, 0.6);
+    cursor: pointer;
+  }
+  
+  #refresh:hover {
+    opacity: 0.5;
+  }
+  
+  #refresh p {
+    font-size: 1rem;
+    margin-top: 3px;
+  }
+  #myBar {
+  
+    width: 30%;
+    height: 5px;
+    background-color: red;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
+  #myProgress {
+    position:absolute;
+    bottom: 35%;
+    left: 37%;
+    width: 25%;
+    background-color: #ddd;
+  }
+  .disable {
+    display: none !important;
+  }
+  

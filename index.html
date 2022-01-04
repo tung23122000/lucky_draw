@@ -18,47 +18,59 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link href="http://fonts.cdnfonts.com/css/thenautigal" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">           
     <title>Document</title>
   </head>
-  
   <body>
-      
-        <div class="app">
-          <img src="./assets/image/anhtet.jpg" class="image-background" alt="" />
-          <div class="tab-number">
-            <div class="number-randum number-random_1" id="one">9</div>
-            <div class="number-randum number-random_2" id="two">9</div>
-            <div class="number-randum number-random_3" id="three">9</div>
-            <div class="number-randum number-random_4" id="four">9</div>
-            <div class="number-randum number-random_5" id="five">9</div>
-          </div>
-    
-          <select class="form-control display" id="form" onchange="dispy()">
-            <option value="option">-- Chọn giải --</option>
-            <option value="first">Giải nhất</option>
-            <option value="second ">Giải nhì</option>
-            <option value="second">Giải ba</option>
-            <option value="encourage">Giải khuyến khích</option>
-            <option value="special">Giải đặc biệt</option>
-          </select>
-    
-          <select class="form-control turn" onchange="display2()">
-            <option>Lượt 1 </option>
-            <option>Lượt 2</option>
-            <option>Lượt 3</option>
-            <option>Lượt 4</option>
-            <option>Lượt 5</option>
-          </select>
-          <button class="button-tow disabled" onclick="clickk()">Quay</button>
-    
-          <div class="lable-give">Chào mừng đã đễ với vòng quay may mắn</div>
-          
-          <audio autoplay loop  id="playAudio" >
-            <source src="./assets/audio_file/nhac.mp3">
-          </audio>
-        </div>
+    <div class="app">
+      <img src="./assets/image/anhbg.jpg" >
+      <div class="tab-number ">
+        <div class="number-randum number-random_1"><h1 class="one">0</h1></div>
+        <div class="number-randum number-random_2"><h1 class="two">0</h1></div>
+        <div class="number-randum number-random_3"><h1 class="three">0</h1></div>
+        <div class="number-randum number-random_4"><h1 class="four">0</h1></div>
+      </div>
+       <select class="form-control display " id="form_1" onchange="handleOpption()"><!---->
+        <option value="option">-- CHỌN GIẢI --</option>
+        <option value="first">Giải nhất </option>
+        <option value="second">Giải nhì </option>
+        <option value="three">Giải ba </option>
+      </select>
+      <select class="display2 " id="form_2">
+        <option value="option">-- CHỌN VĂN PHÒNG --</option>
+        <option value="HN">VP Hà Nội</option>
+        <option value="HCM">VP Hồ Chí Minh</option>
+      </select>
+      <button class="button-tow " onclick="clickRun()"></button>
+      <div id="myProgress" class="a disable">
+        <div id="myBar"></div>
+      </div>
+      <button class="button-tow2 disable"></button>
 
-    <!-- <button class="checkkeke"></button> -->
+      <div class="lable-give disable"></div>
+      <div class="happy disable">
+        <img src="./assets/image/happy.png" alt="">
+      </div>
+      <div class="name-gift disable"><p>Giải Ba</p></div>
+      <div class="gift disable"><p>giải thưởng</p></div>
+      <div class="name-peple-gift disable"><p>chuc mung xxxx phong yyy</p></div>
+      <div class="many-gift  disable" onclick="clickComeBack()">
+        <img src="./assets/image/aaa.png" alt="">
+      </div>
+
+      <!--
+       <button id="refresh" class="disable" onclick="clickReferst()">
+        <p>Làm mới</p>
+      </button>
+      <audio autoplay loop id="playAudio">
+        <source src="./assets/audio_file/nhac.mp3" />
+      </audio>
+    </div>  -->
+
+  
     <script src="assets/jsfile/index.js"></script>
 
     <script src="assets/jsfile/testramdom.js"></script>
@@ -79,6 +91,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <script></script>
+ 
+
   </body>
 </html>
